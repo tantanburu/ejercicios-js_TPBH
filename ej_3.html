@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Tania Burunat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionales 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function responder () {
+        var nombre = $("#nombre").val();
+    if (nombre == "John Deacon") {
+    	alert('Respuesta correcta');
+    } else {
+    	alert('Respuesta incorrecta');
+    }
+        }
+    </script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<link rel="stylesheet" href="css/estilos.css" type="text/css">
+
+</head>
+<body>
+    <div class="container principal">
+        <h1>Ejercicio 3-Condicionales 2</h1>
+        <form>
+            <p>¿Quién es el integrante bajista de Queen?</p>
+    <input type="text" name="nombre" id="nombre" placeholder="Escribe la respuesta"/>
+    <button onclick="responder();">Iniciar</button>
+    </form>
+
+    <h2>El codigo utilizado fa-angle-up</h2>
+    <code>
+        function responder () {
+            var nombre = $("#nombre").val();
+        if (nombre == "John Deacon") {
+            alert('Respuesta correcta');
+        } else {
+            alert('Respuesta incorrecta');
+        }
+            }
+    </code>
+</div>
+</body>
+</html>

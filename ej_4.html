@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Tania Burunat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viendo a profundidad este ejemplo </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+function comprobar() {
+  var t1 = 50;
+  var t2 = $('#t2').val();
+  if (t1>t2) 
+    {
+      alert('t1 es mayor a t2');
+    } else {
+      alert('t1 es menor a t2');
+    }
+}
+</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<link rel="stylesheet" href="css/estilos.css" type="text/css">
+
+</head>
+<body>
+  <div class="container principal">
+    <h1>Ejercicio 4- Viendo a profundidad este ejemplo</h1>
+    <p>Escribe un numero del 0 al 100 y comprueba el resultado</p>
+    <form>
+    <input type="number" id="t2" name="t2" />
+    <button onclick="comprobar();">Comprobar ahora</button>
+  </form>
+  <br>
+  <h2>El códigp usado fue</h2>
+  <code>
+    function comprobar() {
+      var t1 = 50;
+      var t2 = $('#t2').val();
+      if (t1>t2) 
+        {
+          alert('t1 es mayor a t2');
+        } else {
+          alert('t1 es menor a t2');
+        }
+    }
+  </code>
+  </div>
+</body>
+</html>

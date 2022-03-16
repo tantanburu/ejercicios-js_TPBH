@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Tania Burunat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahora desaparecemos…</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $("a").click(function(){
+    $(this).fadeOut(1000);
+  });
+});
+</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<link rel="stylesheet" href="css/estilos.css" type="text/css">
+
+</head>
+<body>
+    <div class="container principal">
+        <h1>Ejercicio- Ahora desaparecemos</h1>
+    <a href="#url" class="btn btn-primary btn-lg">Si me das click, desaparecer&eacute;</a>
+<a href="#url" class="btn btn-warning btn-lg">Ahora a mi dame click</a>
+<a href="#url" class="btn btn-success btn-lg"> ahora a mi</a>
+<br>
+<h2>El código que usó fue:</h2>
+<code>
+    $(document).ready(function(){
+        $("p").click(function(){
+        $(this).fadeOut(1000);
+      });
+    });
+</code>
+</div>
+</body>
+</html>
